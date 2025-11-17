@@ -231,7 +231,7 @@ namespace RemoveClaptrap
         }
         private IEnumerator EntityStateCatalog_SetElements(On.RoR2.EntityStateCatalog.orig_SetElements orig, Type[] newEntries1, EntityStateConfiguration[] newEntries2)
         {
-            int c1 = newEntries2.Length;
+            int c1 = newEntries1.Length;
             for (int i = 0; i < c1; i++)
             {
                 foreach (string fucker in thingsThatMightBeClaptrap)
